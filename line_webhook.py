@@ -21,7 +21,7 @@ load_dotenv()
 app = Flask(__name__)
 
 
-line_bot_api = LineBotApi(os.getenv("zLSE3WsN+Mf4kE7P0gKUuWW+gllrIbIKrlpPlUC4CeLpaln0o5h8TweKBZ+2N8X/9JQ9w//RmRt0NRksdg9KaPVl7HIzY3YWI3uh8pUr/lTzIIPj/1pLmmZO/pIzmaHiI5eifyXdQK/M7JX1nsWBpwdB04t89/1O/w1cDnyilFU="))
+line_bot_api = LineBotApi(os.getenv("k8fpdctLKlfzphnYrAZ/zPkH/YDJuYRVgW72guneMDnLSTUUxVXJNyD8dMFzW6la9JQ9w//RmRt0NRksdg9KaPVl7HIzY3YWI3uh8pUr/lRR53sK/tL45ZikkkX0dMHWJCr+1qU7HPlmrsqT3Y1LowdB04t89/1O/w1cDnyilFU="))
 handler = WebhookHandler(os.getenv("883f7e626117994c17814d980801600f"))
 
 # Route / with GET method return Welcome message
