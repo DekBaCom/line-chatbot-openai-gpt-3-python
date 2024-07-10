@@ -21,8 +21,8 @@ load_dotenv()
 app = Flask(__name__)
 
 
-line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
-handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
+line_bot_api = LineBotApi(os.getenv("5Q/pjfwxNj3+D+WcCWlD+3e7nkpnFygWcNnwfYsIGVbyUzm+p+KdN622+HiX8nk79JQ9w//RmRt0NRksdg9KaPVl7HIzY3YWI3uh8pUr/lSYPIeY5LK+oLfuMw5Fo3iE3Dm9KZH/QHJzxfnHhGlzxgdB04t89/1O/w1cDnyilFU="))
+handler = WebhookHandler(os.getenv("883f7e626117994c17814d980801600f"))
 
 # Route / with GET method return Welcome message
 @app.route("/", methods=['GET'])
