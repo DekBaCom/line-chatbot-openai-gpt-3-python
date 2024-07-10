@@ -7,7 +7,7 @@ load_dotenv()
 
 
 openai.api_type = os.getenv("gpt-35-turbo-instruct") #From Go to Azure AI Studio -> Playground then we can use the API into our application 
-openai.api_base = os.getenv("https://lineaoai.openai.azure.com/") #From Go to Azure AI Studio -> Playground then we can use the API into our application 
+openai.api_base = os.getenv("https://lineaoai.openai.azure.com") #From Go to Azure AI Studio -> Playground then we can use the API into our application 
 openai.api_version = os.getenv("2024-05-01-preview") #From Go to Azure AI Studio -> Playground then we can use the API into our application 
 openai.api_key = os.getenv("2b66b4ac967246fba47d55e65f46ef9e") #From Go to Azure AI Studio -> Playground then we can use the API into our application 
 
